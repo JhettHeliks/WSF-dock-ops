@@ -1,0 +1,8 @@
+{
+  "name": "WSF DockOps",
+  "description": "Material 3 freight delivery routing and no-backtracking vessel scheduler for Washington State Ferries warehouse workers with live GPS tracking, urgent notifications, and offline sync.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

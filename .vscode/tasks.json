@@ -1,0 +1,73 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Android: Build & Run on Emulator",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/.vscode/run-android.ps1"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: Launch Emulator",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/.vscode/run-android.ps1",
+        "-EmulatorOnly"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: Build Debug APK",
+      "type": "shell",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": [
+        "assembleDebug"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: Install & Launch App (Skip Build)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/.vscode/run-android.ps1",
+        "-SkipBuild"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: Run Unit Tests",
+      "type": "shell",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": [
+        "testDebugUnitTest"
+      ],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

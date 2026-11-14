@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WSF DockOps</string>
+    <string name="header_subtitle">PUGET SOUND FREIGHT &amp; ZERO-BACKTRACK ROUTER</string>
+    <string name="nav_route_planner">Route Deck</string>
+    <string name="nav_ferry_radar">WSF Vessels</string>
+    <string name="nav_gps_corridor">GPS Radar</string>
+    <string name="nav_sync_queue">Offline Sync</string>
+    <string name="btn_resequence_no_backtrack">OPTIMIZE: NO BACKTRACKING</string>
+    <string name="btn_new_delivery">NEW MANIFEST</string>
+    <string name="btn_dispatch_urgent_alert">DISPATCH URGENT ALERT</string>
+    <string name="btn_sync_now">FLUSH OFFLINE QUEUE</string>
+    <string name="label_priority_mode">ROUTING PRIORITY</string>
+    <string name="label_corridor_direction">CORRIDOR FLOW</string>
+    <string name="status_online_live">ONLINE • WSF TELEMETRY SYNCED</string>
+    <string name="status_offline_deadzone">OFFLINE • HULL / WAREHOUSE DEAD ZONE</string>
+    <string name="empty_deliveries_title">No Active Freight Manifests</string>
+    <string name="empty_deliveries_subtitle">Add a new terminal delivery or reset the Puget Sound shift schedule.</string>
+</resources>

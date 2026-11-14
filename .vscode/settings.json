@@ -1,0 +1,7 @@
+{
+  "terminal.integrated.env.windows": {
+    "ANDROID_HOME": "${env:LOCALAPPDATA}\\Android\\Sdk",
+    "JAVA_HOME": "C:\\Program Files\\Android\\Android Studio\\jbr",
+    "PATH": "${env:LOCALAPPDATA}\\Android\\Sdk\\platform-tools;${env:LOCALAPPDATA}\\Android\\Sdk\\emulator;C:\\Program Files\\Android\\Android Studio\\jbr\\bin;${env:PATH}"
+  }
+}
